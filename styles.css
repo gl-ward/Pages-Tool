@@ -233,3 +233,16 @@ border: 1px black solid;
 		padding-right: 0%
 	}
 }
+@media (min-width: 1103px) {
+	.headerImage {
+		position: absolute;
+		top: 3px;
+	}
+}
+@media (max-width: 992px) and (min-width: 875px) {
+	.headerImage {
+		position: absolute;
+		top: 3px;
+		left: 0px;
+	}
+}
